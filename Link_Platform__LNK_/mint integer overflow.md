@@ -25,7 +25,7 @@ contract LinkToken is StandardToken, Ownable {
 
 
 
-The LNK token could be arbitary minted by its creator in function mint. The balances[_spender] and ) _value are a defined as uint, so oprator '+' would definitely result in an interger overflow.
+The LNK token could be arbitrary minted by its creator in function mint(). The balances[_spender] and ) _value are a defined as uint, so oprator '+' would definitely result in an integer overflow.
 
 
 
@@ -33,7 +33,7 @@ Simulated on Remix:
 
 ![](./1.png)
 
-The owner of the contract could mint arbitary amout of  (for example 0x8000000000000000000000000000000000000000000000000000000000000000 Wei) subconcurrency LNK to an arbitary user.
+The owner of the contract could mint arbitary amout of (for example 0x8000000000000000000000000000000000000000000000000000000000000000 Wei) subconcurrency LNK to an arbitary user.
 
 
 
