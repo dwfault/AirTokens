@@ -43,6 +43,8 @@ The owner of the contract could mint arbitary amout of  (for example 0x800000000
 
 If the owner of the contract mint another 0x8000000000000000000000000000000000000000000000000000000000000000 LNK to the user again,  integer overflow happened which make balanceOf this user to be 0.
 
+And actually the owner of the contract could control the balance of an arbitary user to be an aribitary value. 
+
 
 
 This is a serious problem for digital assets. Not a good thing for an organization who has a  poor code but fancy website(https://cryptolink.network).  
