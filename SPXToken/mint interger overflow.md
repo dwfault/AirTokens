@@ -46,7 +46,7 @@ This is a serious problem for digital assets.
 
 ### Similar Vulnerabilities
 
-Other tokens found vulnerable by us are listed below.
+Other tokens found vulnerable by us are listed below. These ones have a similar code pattern.
 
 ##### SpadeICO
 https://etherscan.io/address/0xfdb3c07c25f5a6879cc8b00685ed1a080c59615e#code
